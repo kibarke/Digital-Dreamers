@@ -14,5 +14,14 @@
     <button class="find-a-class"></button>
     <button class="try-at-home"></button>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quidem ullam eaque placeat ipsum reprehenderit suscipit culpa esse possimus dolore quam labore, fuga cum molestias sed voluptas modi velit magnam!</p>
+    <div class="entry">
+        {{#if oldUser}}
+        <h3>
+           Welcome back {{firstName}} {{lastName}}!
+        </h3>
+        {{else}}
+        <h3>Welcome to you fitness journey!</h3>
+        {{/if}}
+    </div>
 </body>
 </html>

@@ -2,6 +2,7 @@
 [MIT](LICENSE)
 
 ## Project Requirements
+```
 - Use Node.js and Express.js to create a RESTful API.
 - Use Handlebars.js as the templating engine.
 - Use MySQL and the Sequelize ORM for the database.
@@ -15,7 +16,7 @@
 - Include authentication (express-session and cookies).
 - Protect API keys and sensitive information with environment variables.
 - Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
-
+```
 Have a quality README (with unique name, , , and link to deployed application).
 
 ## Description
@@ -24,6 +25,8 @@ Have a quality README (with unique name, , , and link to deployed application).
 - Description
 
 ## Technologies Used
+
+
 
 ## Screenshot
 ![pathtoscreenshot](./path/to/screenshot)
