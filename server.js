@@ -11,11 +11,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Set Handlebars as the default template engine.
-app.engine('handlebars', hbs.engine);
+app.engine('handlebars', exphbs.engine);
 app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
-// app.use(require(''));
 
 // Starts the server to begin listening
 app.listen(PORT, () => {
