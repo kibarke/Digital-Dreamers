@@ -6,6 +6,8 @@ const hbs = exphbs.create({});
 import express from 'express';
 import { engine } from 'express-handlebars';
 
+import 'boxicons';
+
 // Sets up the Express App
 const app = express();
 const PORT = process.env.PORT || 3001;
