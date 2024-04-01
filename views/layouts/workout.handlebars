@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Routines!</title>
+</head>
+<body>
+    
+    <h1>
+        Hey {{firstName}}
+    </h1>
+    <h2>Your options for today!</h2>
+
+    <h3>
+        {{meditation}}
+    </h3>
+        <li>
+            {{link "See Video" url}}
+        </li>
+    
+
+    {{!-- note,
+    the handlebar website says this is a preparation script --}}
+    {{!-- Handlebars.registerHelper("link", function(text, url) {
+      var url = Handlebars.escapeExpression(url),
+          text = Handlebars.escapeExpression(text)
+          
+     return new Handlebars.SafeString("<a href='" + url + "'>" + text +"</a>");
+}); --}}
+
+    <h3>
+        {{strengthTraining}}
+    </h3>
+        <li>
+            {{link "See Video" url}}
+        </li>
+    
+    <h3>
+        {{Yoga}}
+    </h3>
+
+    <li>
+        {{link "See Video" url}}
+    </li>
+
+</body>
+</html>
