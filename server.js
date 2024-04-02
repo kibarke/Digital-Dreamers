@@ -20,6 +20,17 @@ app.set('views', './views');
 app.use(express.static(path.join(__dirname, 'public')));
 // app.use(require(''));
 
+
+// Routes
+// Following dan's tutorial (33.03)
+app.get('/', (req, res) => {
+  res.render('home');
+});
+
+app.get('/workout', (req, res) => {
+  res.render('workout');
+});
+
 // Starts the server to begin listening
 app.listen(PORT, () => {
   console.log('Server listening on: http://localhost:' + PORT);
