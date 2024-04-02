@@ -1,16 +1,8 @@
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3001;
+const router = require('express').Router();
+// const apiRoutes = require('./api');
+const homeRoutes = require('./homeRoutes');
 
-// Middleware setup
-app.use(express.static('public'));
-app.use(express.json());
+router.use('/', homeRoutes);
+// router.use('/api', apiRoutes);
 
-// Routes setup
-app.use('/', require('./routes/index'));
-// More routes can be added here
-
-// Start server
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+module.exports = router;
