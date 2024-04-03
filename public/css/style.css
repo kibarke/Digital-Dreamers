@@ -1,0 +1,42 @@
+body {
+    background-color: var(--white);
+    color: var(--sonic-silver);
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.h1 {
+    color: var(--white);
+    font-size: var(--fs-1);
+    font-weight: var(--fw-900);
+}
+
+.h1 {
+    color: var(--white);
+    font-size: var(--fs-1);
+    font-weight: var(--fw-900);
+
+    .container {
+            {
+            padding-inline: 15px;
+        }
+    }
+
+    .section {
+        padding-block: var(--section-padding);
+    }
+
+    .bg-dark {
+        background-color: var(--rich-black-fogra-29-1);
+        color: var(--silver-metallic);
+    }
+
+    .has-bg-image {
+        background-repeat: no-repeat;
+        background-position: top left;
+
+
+
+        #image {
+            <i class='bx bxs-like bx-xs'></i><i class='bx bxs-like bx-sm'></i><i class='bx bxs-like bx-md'></i><i class='bx bxs-like bx-lg'></i>
+        }
