@@ -1,5 +1,5 @@
 const router = require('express').Router();
 
-router.get('/', async (req, res) => res.render('homePage'));
+router.get('aboutUs', async (req, res) => res.render('aboutUs'));
 
 module.exports = router;
