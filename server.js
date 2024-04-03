@@ -1,9 +1,10 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
+const session = require('express-session');
+const routes = require('./controllers');
 
 const hbs = exphbs.create({});
-const routes = require('./controllers');
 
 // Sets up the Express App
 const app = express();
