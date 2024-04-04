@@ -1,10 +1,18 @@
 body {
-    background-color: var(--white);
-    color: var(--sonic-silver);
+    background-color: var(--body-color);
+    color: var(--text-color);
     font-size: 1.6rem;
     line-height: 1.6;
 }
 
+body,
+button,
+input {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+
+}
+
 .h1 {
     color: var(--white);
     font-size: var(--fs-1);
@@ -12,31 +20,100 @@ body {
 }
 
 .h1 {
-    color: var(--white);
+    color: var(--title-color);
     font-size: var(--fs-1);
-    font-weight: var(--fw-900);
+    font-weight: var(--font-bold);
+}
 
-    .container {
-            {
-            padding-inline: 15px;
-        }
-    }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-    .section {
-        padding-block: var(--section-padding);
-    }
-
-    .bg-dark {
-        background-color: var(--rich-black-fogra-29-1);
-        color: var(--silver-metallic);
-    }
-
-    .has-bg-image {
-        background-repeat: no-repeat;
-        background-position: top left;
+html {
+    scroll-behavior: smooth;
+}
 
 
 
-        #image {
-            <i class='bx bxs-like bx-xs'></i><i class='bx bxs-like bx-sm'></i><i class='bx bxs-like bx-md'></i><i class='bx bxs-like bx-lg'></i>
-        }
+
+
+
+.container {
+
+    max-width: 1124px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+
+}
+
+.section {
+    padding: 4.5rem 0 2rem;
+}
+
+section__data {
+    display: flex;
+    flex-direction: column;
+    row-gap: .75rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section__title,
+.section__title-border {
+    font-size: var(--big-font-size);
+    letter-spacing: 1.5px;
+}
+
+.section__subtitle {
+    font-size: var(--h2-font-size);
+    font-family: var(--second-font);
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: var(--first-color);
+    transform: roatate(-2deg);
+}
+
+.section__titles {
+    display: flex;
+    column-gap: .75rem;
+    justify-content: center;
+}
+
+.section__title-border {
+    -webkit-text-stroke: 1px var(--text-color);
+    color: transparent;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.main {
+    overflow: hidden;
+    /* For animation ScrollReveal */
+}
+
+.bg-dark {
+    background-color: var(--rich-black-fogra-29-1);
+    color: var(--silver-metallic);
+}
+
+.has-bg-image {
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+<style>.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+</style>#image {
+    <i class='bx bxs-like bx-xs'></i><i class='bx bxs-like bx-sm'></i><i class='bx bxs-like bx-md'></i><i class='bx bxs-like bx-lg'></i>
+}
