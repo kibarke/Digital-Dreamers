@@ -1,12 +1,11 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
+const session = require('express-session');
+const routes = require('./controllers');
+const sequelize = require('./config/connection');
 
 const hbs = exphbs.create({});
-const routes = require('./controllers');
-const routes = require('./controllers');
-const session = require('express-session');
-
 
 // Sets up the Express App
 
