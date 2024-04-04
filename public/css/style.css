@@ -1,42 +1,57 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: var(--white);
-    color: var(--sonic-silver);
-    font-size: 1.6rem;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
-.h1 {
-    color: var(--white);
-    font-size: var(--fs-1);
-    font-weight: var(--fw-900);
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
 }
 
-.h1 {
-    color: var(--white);
-    font-size: var(--fs-1);
-    font-weight: var(--fw-900);
+header h1 {
+    margin: 0;
+}
 
-    .container {
-            {
-            padding-inline: 15px;
-        }
-    }
+nav {
+    margin-top: 10px;
+}
 
-    .section {
-        padding-block: var(--section-padding);
-    }
+nav li{
+    display: inline;
+}
 
-    .bg-dark {
-        background-color: var(--rich-black-fogra-29-1);
-        color: var(--silver-metallic);
-    }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
 
-    .has-bg-image {
-        background-repeat: no-repeat;
-        background-position: top left;
+/* Main styles */
+main {
+    padding: 20px;
+}
 
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 
-
-        #image {
-            <i class='bx bxs-like bx-xs'></i><i class='bx bxs-like bx-sm'></i><i class='bx bxs-like bx-md'></i><i class='bx bxs-like bx-lg'></i>
-        }
+footer p {
+    margin: 0;
+}
