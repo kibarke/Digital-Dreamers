@@ -90,7 +90,30 @@ section__data {
     /* For animation ScrollReveal */
 }
 
-.bg-dark {
+.header {
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    transition: back-ground .3s;
+
+}
+
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo img {
+    width: 1.25rem;
+}
+
+
+@media screen and (max-width: 1023px) .bg-dark {
     background-color: var(--rich-black-fogra-29-1);
     color: var(--silver-metallic);
 }
@@ -107,6 +130,3 @@ section__data {
         'GRAD' 0,
         'opsz' 24
 }
-
-</style>#image {
-    <i class='bx bxs-like bx-xs'></i><i class='bx bxs-like bx-sm'></i><i class='bx bxs-like bx-md'></i><i class='bx bxs-like bx-lg'></i>
