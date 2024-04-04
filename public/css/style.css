@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
+
 :root {
     --header-height: 3.5rem;
 
-    /*========== Colors ==========*/
-    /*Color mode HSL(hue, saturation, lightness)*/
+
     --first-color: hsl(79, 72%, 55%);
     --first-color-light: hsl(79, 97%, 77%);
     --first-color-alt: hsl(79, 67%, 52%);
@@ -40,7 +39,7 @@
     --z-fixed: 100;
 }
 
-/* Responsive typography */
+
 @media screen and (min-width: 1024px) {
     :root {
         --biggest-font-size: 6rem;
@@ -160,57 +159,3 @@ img {
 .color-green {
     color: var(--first-color);
 }
-
-/*=============== HEADER & NAV ===============*/
-
-
-/* Show menu */
-
-
-/* Change background header */
-
-
-/* Active link */
-
-
-/*=============== HOME ===============*/
-
-
-/*=============== BUTTON ===============*/
-
-
-/*=============== LOGOS ===============*/
-
-
-/*=============== PROGRAM ===============*/
-
-
-/*=============== CHOOSE ===============*/
-
-
-/*=============== PRICING ===============*/
-
-
-/*=============== CALCULATE ===============*/
-
-
-/*=============== FOOTER ===============*/
-
-
-/*=============== SCROLL BAR ===============*/
-
-
-/*=============== SCROLL UP ===============*/
-
-
-/* Show Scroll Up*/
-
-
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
-
-
-/* For medium devices */
-
-
-/* For large devices */
