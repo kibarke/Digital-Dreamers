@@ -173,7 +173,7 @@ img {
 
 .color-red {
     color: hsl(0, 80%, 64%);
-=======
+}
 .header {
     width: 100%;
     background-color: transparent;
@@ -197,15 +197,18 @@ img {
 }
 
 
-@media screen and (max-width: 1023px) .bg-dark {
-    background-color: var(--rich-black-fogra-29-1);
-    color: var(--silver-metallic);
-
+@media screen and (max-width: 1023px) {
+    .bg-dark {
+        background-color: var(--rich-black-fogra-29-1);
+        color: var(--silver-metallic);
+    
+    }
+    
+    .color-green {
+        color: var(--first-color);
+    }
 }
 
-.color-green {
-    color: var(--first-color);
-}
 
 /*=============== HEADER & NAV ===============*/
 
@@ -260,11 +263,6 @@ img {
 
 /* For large devices */
 
-
-<style>.material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
-}
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}};
