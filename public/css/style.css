@@ -64,6 +64,19 @@
 
 html {
     scroll-behavior: smooth;
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    font-size: 1.6rem;
+    line-height: 1.6;
+
 }
 
 body,
@@ -72,6 +85,7 @@ input {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
 }
+
 
 body {
     background-color: var(--body-color);
@@ -82,6 +96,10 @@ h1,
 h2,
 h3 {
     color: var(--title-color);
+  color: var(--title-white);
+    font-size: var(--fs-1);
+    font-weight: var(--fw-900);
+
     font-weight: var(--font-bold);
 }
 
@@ -92,6 +110,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 
 img {
     max-width: 100%;
@@ -163,7 +182,6 @@ img {
 
 /*=============== HEADER & NAV ===============*/
 
-
 /* Show menu */
 
 
@@ -214,3 +232,4 @@ img {
 
 
 /* For large devices */
+
