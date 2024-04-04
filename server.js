@@ -8,8 +8,6 @@ const routes = require('./controllers');
 const session = require('express-session');
 
 
-const hbs = exphbs.create({});
-
 // Sets up the Express App
 
 const app = express();
