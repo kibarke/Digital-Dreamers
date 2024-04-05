@@ -29,7 +29,7 @@ app.use(express.static('public'));
 // svg stuff
 const calorieSvgContent = fs.readFileSync('./public/images/calories.svg', 'utf-8');
 
-const heartSvgContent = fs.readFileSync('./public/images/heart-rate.svg', 'utf-8');
+const heartSvgContent = fs.readFileSync('./public/images/heartrate.svg', 'utf-8');
 
 app.get('/', (req, res) => {
   res.render('index', { calorieSvgContent });
