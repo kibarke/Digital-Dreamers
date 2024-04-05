@@ -24,6 +24,10 @@ app.use(routes);
 // styling for handlebars
 app.use(express.static('public'));
 
+// javascript for handlebars
+app.use("js");
+app.use("controllers");
+
 // Starts the server to begin listening
 app.listen(PORT, () => {
 
