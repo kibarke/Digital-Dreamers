@@ -5,6 +5,8 @@ const session = require('express-session');
 const routes = require('./controllers');
 const sequelize = require('./config/connection');
 
+const fs = require('fs');
+
 const hbs = exphbs.create({});
 
 // Sets up the Express App
@@ -24,9 +26,19 @@ app.use(routes);
 // styling for handlebars
 app.use(express.static('public'));
 
-// // javascript for handlebars
-// app.use("js");
-// app.use("controllers");
+// svg stuff
+const calorieSvgContent = fs.readFileSync('./public/images/calories.svg', 'utf-8');
+
+const heartSvgContent = fs.readFileSync('./public/images/heart-rate.svg', 'utf-8');
+
+app.get('/', (req, res) => {
+  res.render('index', { calorieSvgContent });
+});
+
+app.get('/', (req, res) => {
+  res.render('index', { heartSvgContent });
+});
+
 
 // Starts the server to begin listening
 app.listen(PORT, () => {
