@@ -1,29 +1,30 @@
 // const express = require('express');
-
 // const router = express.Router();
 
 // // Home page route
 // router.get('/', (req, res) => {
-//   res.render('index'); // Render your homepage template
+//     res.render('index'); // Render your homepage template
 // });
 
 // // Authentication routes
 // router.post('/login', (req, res) => {
-//   // Handle user login
+//     // Handle user login
+//     res.render
 // });
 
 // router.post('/signup', (req, res) => {
-//   // Handle user signup
+//     // Handle user signup
 // });
 
 // // Workout plans route
 // router.get('/workouts', (req, res) => {
-//   // Render workout plans page
+//     // Render workout plans page
+//     res.render('workout');
 // });
 
 // // Nutrition route
 // router.get('/nutrition', (req, res) => {
-//   // Render nutrition page
+//     // Render nutrition page
 // });
 
 // module.exports = router;
