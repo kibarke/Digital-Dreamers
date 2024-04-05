@@ -21,6 +21,9 @@ app.set('view engine', 'handlebars');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(routes);
 
+// styling for handlebars
+app.use(express.static('public'));
+
 // Starts the server to begin listening
 app.listen(PORT, () => {
 
